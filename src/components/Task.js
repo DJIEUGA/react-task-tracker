@@ -9,10 +9,6 @@ const Task = ({ task, onDelete, onToggle}) => {
     // const [day, setDay] = useState('')
     // const [reminder, setReminder] = useState(false)
 
-const updateTask = (task) =>{
-     console.log(task)
-}
-
     return (
         <>
             {showUpdateTask && <UpdateTask />}
